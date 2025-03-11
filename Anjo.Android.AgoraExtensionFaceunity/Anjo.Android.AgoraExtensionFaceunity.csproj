@@ -1,17 +1,51 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net9.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <!--
-      Enable trim analyzers for Android class libraries.
-      To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
-    -->
-    <IsTrimmable>true</IsTrimmable>
-    <!--
-      NOTE: you can simply add .aar or .jar files in this directory to be included in the project.
-      To learn more, see: https://learn.microsoft.com/dotnet/maui/migration/android-binding-projects
-    -->
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net9.0-android;net8.0-android;</TargetFrameworks>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Anjo.Android.AgoraExtensionFaceunity</PackageId>
+		<PackageVersion>8.8.1</PackageVersion>
+		<AssemblyVersion>8.8.1</AssemblyVersion>
+		<FileVersion>8.8.1</FileVersion>
+		<Version>8.8.1</Version>
+		<Title>Anjo Android Agora Extension Faceunity SDK</Title>
+		<Authors>Wael Anjo</Authors>
+		<Owners>Wael Anjo</Owners>
+		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.AgoraExtensionFaceunityAiDeepArAgoraExtensionFaceunity</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Agora Extension Faceunity SDK</Description>
+		<PackageReleaseNotes>Agora Extension Faceunity SDK v8.8.1</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
+		<PackageTags>Xamarin.Android, NET MAUI, FaceUnity AR Filter, Agora Extension Faceunity, Agora Video</PackageTags>
+		<Summary>The FaceUnity AR Filter extension uses 3D vision, 3D graphics, and deep learning technologies to provide industry’s leading AR portrait video effects for Video SDK. It enables you to add diverse special effects that provide full coverage of the human face.</Summary>
+		<!-- Include symbol files (*.pdb) in the built .nupkg -->
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\extension_aar-release.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.0.0.1" />
+	</ItemGroup>
 </Project>
