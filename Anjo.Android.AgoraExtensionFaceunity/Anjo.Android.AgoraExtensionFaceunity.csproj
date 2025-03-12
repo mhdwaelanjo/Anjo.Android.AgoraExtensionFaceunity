@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.AgoraExtensionFaceunity</PackageId>
-		<PackageVersion>8.8.1</PackageVersion>
-		<AssemblyVersion>8.8.1</AssemblyVersion>
-		<FileVersion>8.8.1</FileVersion>
-		<Version>8.8.1</Version>
+		<PackageVersion>8.8.1.1</PackageVersion>
+		<AssemblyVersion>8.8.1.1</AssemblyVersion>
+		<FileVersion>8.8.1.1</FileVersion>
+		<Version>8.8.1.1</Version>
 		<Title>Anjo Android Agora Extension Faceunity SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>

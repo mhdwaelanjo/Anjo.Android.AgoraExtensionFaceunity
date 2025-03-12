@@ -1,7 +1,7 @@
 # Anjo.Android.AgoraExtensionFaceunity
 
 ---------------------------------
-AiDeepAr SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
+Agora Extension Faceunity SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
 
 [![NuGet Version](https://img.shields.io/nuget/v/Anjo.Android.AgoraExtensionFaceunity)](https://www.nuget.org/packages/Anjo.Android.AgoraExtensionFaceunity) [![GitHub License](https://img.shields.io/github/license/mhdwaelanjo/Anjo.Android.AgoraExtensionFaceunity)](https://github.com/mhdwaelanjo/Anjo.Android.AgoraExtensionFaceunity/blob/master/LICENSE)
